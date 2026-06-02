@@ -1,0 +1,90 @@
+@media(max-width:992px){
+
+.hero,
+.about-page{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-image img,
+.about-img img,
+.skill-image img{
+width:100%;
+max-width:400px;
+}
+
+.hero-text h1{
+font-size:40px;
+}
+
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+}
+@media(max-width:992px){
+
+.skills-wrapper{
+flex-direction:column;
+}
+
+.skill-content h1{
+text-align:center;
+font-size:40px;
+}
+
+.skill-image img{
+max-width:100%;
+}
+
+}
+@media(max-width:768px){
+
+.skills-grid{
+grid-template-columns:1fr;
+}
+
+.skills h1{
+font-size:40px;
+}
+
+}
+@media(max-width:768px){
+
+.gallery h1{
+font-size:40px;
+}
+
+.gallery-grid{
+grid-template-columns:1fr;
+}
+
+}
+@media(max-width:992px){
+
+.gallery-grid{
+grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.gallery-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:500px){
+
+.gallery-grid{
+grid-template-columns:1fr;
+}
+
+}
